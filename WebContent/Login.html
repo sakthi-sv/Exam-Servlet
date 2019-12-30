@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Login</title>
+<link rel="stylesheet" href="CSS/Login.css">
+</head>
+<body>
+	<div class="box">
+		<form action="Login" accept-charset="utf-8" class="signin" method="post">
+			<h2>LOGIN</h2>
+			
+			<div class="inputBox">
+				<input type="text" name="uname" placeholder="USERNAME" required></input></div>
+			
+			<div class="inputBox">
+				<input type="password" name="pass" placeholder="PASSWORD" required></input></div>
+			
+			<div class="fgt"><a href="#">FORGOT PASSWORD</a></div>
+			
+			
+			<input type="submit" value="LOGIN"></input>
+		 	
+		 	<input type="button" value="Admin" onclick="link()"></input>
+		</form>
+	</div>
+
+
+<script>
+
+function link() {
+	window.open("stafflogin.jsp","_self");
+}
+</script>
+</body>
+</html>
